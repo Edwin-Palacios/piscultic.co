@@ -1,0 +1,3 @@
+function derecha(){
+    document.getElementsByClassName
+}

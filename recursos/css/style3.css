@@ -1,0 +1,365 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* html{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagenes/20.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+/* } */
+/* html{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/* } */
+
+/* html{
+    translate: 0px -40px;
+} */
+body{ 
+    z-index: 1000;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 110vh;
+    display: inline-flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagenes/20.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 10;
+}
+.contenedor-img1, .contenedor-img2{
+    width: 20%;
+    height: 100%;
+    background-color: inherit;
+    z-index: 2000;
+}
+form{
+    /* position: absolute; */
+    /* background-color: blueviolet; */
+    width: 40%;
+    height: 50%;
+    /* position: relative; */
+    /* position: inherit; */
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 2px 3px 10px 3px rgba(0, 0, 0, 0.342) ;
+    border-radius: 10px;
+    color: azure;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+/* .contenedor-img2{ */
+    /* width: 20%;
+    height: 100%;
+    background-color: red;
+} */
+
+.titulo{
+
+    /* background-color: chartreuse; */
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+}
+.titulo h2{
+    font-size: 6vh;
+}
+
+.primero{
+
+    /* background-color: blue; */
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    /* translate: 1000px; */
+    transition: 0.5s;
+
+}
+
+label, .segundo label{
+    position: relative;
+    width: 20%;
+    height: 10%;
+    /* border: 2px solid; */
+    display: inline-block;
+    /* padding: 1%; */
+    font-size: 3vh;
+    margin: 1%;
+    margin-left: 2%;
+}
+
+.date{
+    width: 60%;
+}
+
+
+
+input, .segundo input{
+    position: relative;
+    width: 70%;
+    height: 15%;
+    /* position: absolute; */
+    box-sizing: border-box;
+    
+    /* background-color: darkorange; */
+    /* border: 2px solid; */
+    display: inline-block;
+    /* padding: 1vh; */
+    margin: 1vh;
+    font-size: 5vh;
+    /* margin: 1vh; */
+    background-color: inherit;
+    outline: none;
+    /* text-decoration: none; */
+    border: none;
+    border-bottom: 1px solid aqua;
+    color: bisque;
+}
+
+input[type=date]{
+    width: 30%;
+    justify-content: center;
+    color: bisque;
+}
+
+
+button{
+    position: relative;
+    width: 45%;
+    height: 10%;
+    display: inline-block;
+    margin: auto 2% auto 2%;
+    justify-content: center;
+    height: 15%;
+}
+
+.eleccion{
+    width: 45%;
+    height: 18%;
+    display: inline-block;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+    margin: 2% 2%;
+    text-align: center;
+    padding-top: 1.5%;
+    font-size: 3.5vh;
+    outline: none;
+    border: none;
+    
+}
+.eleccion:hover{
+    box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.438);
+    border-bottom: 2px solid rgb(0, 255, 255);
+    border-radius: 10px;
+    /* color: aqua; */
+    /* font */
+    background-color: rgba(0, 255, 255, 0.367);
+    font-size: 5vh;
+}
+
+
+/* .eleccion span p{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+} */
+
+.segundo{
+    /* background-color: blue; */
+    width:100%;
+    height: 80%;
+    position: absolute;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    /* display: none; */
+    transition: 0.5s;
+    translate: -1000px;
+    /* z-index: -100; */
+    /* display: none; */
+}
+.segundo label{
+    width: 35%;
+    height: 10%;
+}
+
+
+.segundo input{
+    width: 55%;
+    height: 15%;
+    color: bisque;
+    background-color: inherit;
+}
+
+.segundo input[type=text]:focus, input[type=password]:focus{
+    background-color: inherit;
+} 
+.segundo input[type=submit]{
+    width: 45%;
+    padding-bottom: 2%
+
+}
+/* .segundo span{
+    /* position: absolute; */
+    /* display: inline-block;
+    translate: 0px 0%;  */
+    /* margin-top: -10px; */
+/* } */
+
+/* .segundo input[type=submit]{
+   
+    
+} */
+
+.segundo input[type=submit], span{
+    width: 45%;
+    height: 18%;
+    display: inline-block;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+    margin: 2% 2%;
+    text-align: center;
+    padding-top: 1.5%;
+    font-size: 3.5vh;
+    outline: none;
+    border: none;
+    color: azure;
+    
+}
+.segundo input[type=submit]:hover, span:hover{
+    box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.438);
+    border-bottom: 2px solid rgb(0, 255, 255);
+    border-radius: 10px;
+    color: azure;
+    background-color: rgba(0, 255, 255, 0.275);
+    font-size: 5vh;
+}
+
+
+@media screen and (max-width: 767px){
+    
+    html{
+        height: 120%;
+        width: 120%;
+
+
+    }
+    
+    
+    form {
+        width: 50%;
+        height:70%;
+    }
+/* 
+@media screen and (min-width: 768px){
+    
+        html{
+            height: 120%;
+            width: 120%;
+    
+    
+        }
+        
+        
+        form {
+            width: 50%;
+            height:70%;
+        }
+    } */
+    /* .logo{
+        left: -2%;
+    }
+    .formu{
+        padding-top: 10%;
+    } */
+  }
+
+  @media screen and (max-width: 840px) and (min-width: 768px) and (min-height: 600px) {
+    html{
+        height: 120%;
+        width: 120%;
+
+
+    }
+    
+    
+    form {
+        width: 50%;
+        height:70%;
+    }
+  }
+
+  @media screen and (min-width: 841px) and (max-width: 980px) and (min-height: 600px) {
+    html{
+        height: 120%;
+        width: 120%;
+
+
+    }
+    
+    
+    form {
+        width: 50%;
+        height:70%;
+    }
+  }
+
+
+  @media screen and (min-width: 981px) and (max-width: 1280px) and (min-height: 600px) {
+    html{
+        height: 120%;
+        width: 120%;
+
+
+    }
+    
+    
+    form {
+        width: 50%;
+        height:70%;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 955px) and (min-height: 600px) {
+    html{
+        height: 120%;
+        width: 120%;
+
+
+    }
+    
+    
+    form {
+        width: 50%;
+        height:70%;
+    }
+  }

@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html{
+    /* position: absolute; */
+    /* display: flex; */
+    /* justify-items: center; */
+    /* align-items: center; */
+    margin: 0%;
+    padding: 0%;
+    
+    
+    /* width:  100%;
+    
+    position: relative;
+    display: flex;
+    
+    background-image: url(recursos/imagenes/ese-elegido/primerplanta/124.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: end; */
+    
+
+}
+body{
+    width: 100%;
+    height: 100%;
+    /* position: fixed; */
+    /* background: green; */
+    /* background-image: url(recursos/imagenes/ese-elegido/primerplanta/descarga3.jpg); */
+}
+
+
+
+
+
+
+
+.cuerpo{
+    /* position: absolute; */
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(179, 255, 0); */
+    box-sizing: border-box;
+   position: fixed;
+   z-index: 100;
+    
+}
+
+.container{
+    /* background-color: rgb(255, 0, 221); */
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    /* display: block; */
+}
+
+.cabeza{
+    width: 100%;
+    height: 10%;
+    background-color: brown;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    /* position: fixed; */
+    z-index: 20;
+}
+.user{
+    width: 40%;
+    height: 100%;
+    /* background-color: cadetblue; */
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: end;
+}
+.logo{
+    width: 10%;
+    height: 80%;
+    /* background-color: darkorchid; */
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logo span{
+    width: 70%;
+    height: 80%;
+    /* background-color: blue; */
+}
+.logo span img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.nombre{
+    width: 75%;
+    height: 80%;
+    /* background-color: rgb(53, 133, 15); */
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    /* padding-bottom: 10px; */
+    /* margin-left: 10px; */
+}
+.nombre h3{
+    /* padding-bottom: 1em; */
+    /* padding-top: 10em; */
+    padding-left: 0.5em;
+    font-size: 3vw;
+    color: rgb(225, 225, 226);
+}
+.monedas{
+    width: 20%;
+    height: 100%;
+    /* background-color: rgb(207, 128, 38); */
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.cantidad-monedas{
+    width: 40%;
+    height: 60%;
+    /* background-color: rgb(28, 118, 170); */
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    /* font-size: 1rem; */
+}
+.cantidad-monedas p{
+    /* padding-bottom: 0.5em; */
+    font-size: 3vw;
+    color: rgb(225, 225, 226);
+}
+.logo-monedas{
+    width: 15%;
+    height: 60%;
+    /* background-color: rgb(144, 170, 28); */
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.logo-monedas span{
+    width: 65%;
+    height: 80%;
+    /* background-color: red; */
+}
+.logo-monedas span img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.menu-derecha{
+    width: 40%;
+    height: 100%;
+    /* background-color: rgb(25, 163, 55); */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+.notificacion{
+    width: 15%;
+    height: 60%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    /* background-color: crimson; */
+}
+.notificacion a{
+    display: flex;
+    width: 70%;
+    height: 70%;
+    /* overflow: hidden; */
+    /* box-sizing: border-box; */
+    /* align-items: end; */
+    justify-content: end;
+    /* background-color: rgb(145, 119, 124); */
+}
+/* .notificacion  span{
+    
+    /* display: flex; */
+    /* background-color: rgb(176, 255, 96); */
+
+.notificacion img{
+    width: 100%;
+    height: 100%;
+}
+.configuracion{
+    width: 15%;
+    height: 60%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    /* background-color: rgb(211, 77, 104); */
+}
+.configuracion a{
+    display: flex;
+    width: 70%;
+    height: 70%;
+    justify-content: end;
+}
+.configuracion img{
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    width: 15%;
+    height: 60%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    /* background-color: rgb(99, 8, 26); */
+}
+.menu a{
+    display: flex;
+    width: 70%;
+    height: 70%;
+    justify-content: end;
+}
+.menu img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+.final{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(43, 226, 171);
+    box-sizing: border-box;
+    display: flex;
+    align-items: end;
+}
+
+
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <link rel="stylesheet" href="../recursos/css/style3.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor-img1"></div>
+    <!-- <form action="../controladores/registro.php" method="post"> -->
+    <form method="post" action="../controladores/registro.php">
+        <?php
+           
+        //    date_default_timezone_set('America/Bogota');
+        //    $fecha_creacion_cuenta = date('y-m-d h:i:s');
+       ?>
+
+       <div class="titulo">
+            <h2>Registrarse</h2>
+       </div>
+
+        <div id="primero" class="primero">
+            <label for="nom">Nombre</label>
+            <input type="text" id="nom" name="nombre">
+
+        
+            <label for="ape">Apellidos</label>
+            <input type="text" id="ape" name="apellido">
+
+            <label for="f_n" class="date">Fecha de Nacimiento</label>
+            <input type="date" id="f_n" name="fecha_naci">
+
+            <label for="cor">Correo</label>
+            <input type="email" id="cor" name="correo">
+            <span class="eleccion" onclick="location.href='index.html'"><p>Cancelar</p></span>
+            <span onclick="cortina()" class="eleccion"><p>Siguiente</p></span>
+            
+        </div>
+
+        <!-- <div class="deciciones">
+            
+
+        </div> -->
+
+        <div id="segundo" class="segundo">
+
+            <label for="nom_usu">Nombre de Usuario</label>
+            <input type="text" id="nom_usu" name="usuario">
+
+            <label for="pass">Contraseña</label>
+            <input type="password" id="pass" name="contrasena">
+
+            <label for="rp_pass">Repetir contraseña</label>
+            <input type="password" id="rp_pass" name="rep_contrasena">
+
+        
+            <label for="f_per">Foto de perfil</label>
+            <input type="text" id="f_per" name="foto_perfil">
+            <span class="" onclick="cortina2()"><p>Atras</p></span>
+            <input type="submit" value="aceptar" class="registro">
+
+        </div>
+        
+        <!-- <div class="confirmacion">
+            
+        </div> -->
+
+        
+        <!-- <input type="datetime"  name="fecha_creacion_cuenta" value="  -->
+        
+        
+        
+
+
+
+    </form>
+    <div class="contenedor-img2"></div>
+    
+    
+    <!-- <script src="../recursos/js/registri.js">
+        function cortina(){
+    // document.getElementsById("segundo").innerHTML= 'style.display=block';
+    document.getElementById("primero").style.display='none';
+    document.getElementById("segundo").style.display='block';
+}
+    </script> -->
+
+    <script src="../recursos/js/registri.js"></script>
+    
+</body>
+</html>

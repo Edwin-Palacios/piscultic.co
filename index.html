@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="recursos/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="logo">
+            <img src="imagenes/logo.png" alt="">
+        </div>
+        <form class="formu" action="controladores/login.php" method="post">
+
+            <h2>Login</h2>
+            
+            <label for="usu">Usuario</label>
+            <input type="text" placeholder="Ingrese su usuario" id="usu" name="usuario" required>
+            <label for="pswr">Password</label>
+            <input type="password" placeholder="Ingrese su contraseña" id="pswr" name="contrasena" required>
+            
+            <div class="botones">
+                <input type="submit" value="Aceptar" class="hermanos">
+            
+                <button type="button" onclick="window.location='vista/registro.html'" class="hermanos">Registrarse</button>
+
+            </div>
+            <div class="rec">
+                <label for=""><input type="checkbox" checked="checked" name="remember">Recuperar contraseña</label>
+
+                <div class="recuperar_psw">
+                <span onclick="window.location='index.html'" class="recuperar"><a href="#">¿Has olvidado su contraseña?</a></span>
+                </div>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
